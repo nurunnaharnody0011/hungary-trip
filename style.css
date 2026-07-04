@@ -1,0 +1,102 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    
+}
+.container {
+    width: 100%;
+    height: 100%;
+    background-image: url('images/bg.jpg');
+    background-size: cover;
+}
+nav {
+    display: flex;
+justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+    
+    border-bottom: 1px solid rgb(101, 122, 199);
+}
+
+nav a {
+    color: rgba(108, 131, 142, 0.902);
+    text-decoration: none;
+    padding: 20px 5px;
+    margin:10px;
+    background:transparent;
+    cursor: pointer;
+}
+
+#hungaryTrip {
+    color: rgb(144, 217, 230);
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-size: 18px;
+}
+.content {
+    display: flex;
+    justify-content: space-between;
+  padding: 40px;
+}
+.content h2 {
+    color: rgb(185, 189, 203);
+    font-size: 80px;
+    padding: 30px 0px 20px 20px;
+    width: 60%;
+    line-height: 1;
+    
+}
+.content button {
+    position: absolute;
+    right: 50px;
+    top: 165px;
+    background:transparent;
+    color: rgb(189, 137, 196);
+    font-size: 15px;
+    padding: 30px 60px;
+    border: 1px solid rgb(169, 174, 200);
+   border-radius: 10px;
+    cursor: pointer;
+    
+}
+button:hover {
+    background-color: rgb(161, 179, 243);
+    color: rgb(240, 243, 244);
+}
+.blog {
+    display: flex;
+    justify-content: space-between;
+    
+}
+.blog img {
+    display: flex;
+    justify-content: space-between;
+    width: 610px;
+    height: 600px;
+    border-radius: 15px; 
+}
+#image1 {
+    padding: 5px 0px 5px 70px;
+}
+#image2 {
+    padding: 5px 70px 5px 0px;
+}
+
+.blog h4 {
+    color: rgb(69, 107, 107);
+    font-size: 18px;
+    padding: 10px 0px 10px 0px;
+    text-align: center;
+}
+.blog p {
+    color: rgb(136, 162, 188);
+    font-size: 32px;
+    
+    text-align: center;
+}
+.blog h3 {
+    color: rgb(81, 99, 116);
+    font-size: 15px;
+   padding: 8px 0px 100px 0px;
+    text-align: center;
+}
